@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li id="gd">广东</li>
+    <li class="gx">广西</li>
+    <li>湖南</li>
+    <li>湖北</li>
+</ul>
+<script>
+    /*获取广东所在的li元素*/
+    // var gd=document.getElementById('gd');
+    // console.log(gd);
+
+    var gx=document.getElementsByClassName('gx')[0];
+    console.log(gx);
+
+    // var hn=document.getElementsByTagName("li")[2];
+    // console.log(hn);
+
+    /*H5新增的获取dom元素的方法*/
+    /*querySelector(传入选择器：标签  类  ID)*/
+    // var gd=document.querySelector("#gd");
+    // console.log(gd);
+    // var gx=document.querySelector(".gx");
+    // console.log(gx);
+    /*如果使用标签选择器，在有多个结果满足的情况下，只会返回第一个*/
+    /*var hn=document.querySelector("li");
+    console.log(hn);*/
+    // var hn=document.querySelectorAll("li")[2];
+    // console.log(hn);
+</script>
+</body>
+</html>
